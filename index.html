@@ -1,0 +1,219 @@
+
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>N300 Project Two</title>
+    <meta name="viewport" content="width=device-width, user-scalable=false;"> 
+    <meta charset = "UTF-8" />
+    <link rel="stylesheet"
+        href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+     <script src="phonegap.js"></script>
+     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+     <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js">
+    </script>
+
+    <style type = "text/css">
+        body {
+        background-color: black;
+        color: white;
+        }
+        
+        h2 {
+            color: black;
+            -webkit-text-stroke: 1px red;
+            font-size: 250%;
+        }
+        
+        h5 {
+            color: black;
+            -webkit-text-stroke: 1px red;
+            font-size: 250%;        
+        }
+        
+        #foot {
+            font-size: 80%;
+            font-style: italic;
+            text-align: center;
+        }
+        #dance {
+            width: 100%;
+            max-width: 600px;
+            
+        }
+        
+    </style>
+</head>
+<body width = "device-width">
+    
+  <div id = "page1" data-role = "page" data-theme = "b">
+    <div id="head" data-role = "header">
+      <h1>Project Number Two</h1>
+    </div>
+    
+    <div id="content" data-role = "content">
+      <p>
+       <center><header><h2>
+       Welcome to the Chaos
+    </h2></header>
+    
+    <img src = "cyndaquil.png"
+         alt= "This is my Favorite Pocket Monster!">
+        
+   <article><h3>
+        Cyndaquil used "INFERNO!"
+    </h3></article>
+    
+    <progress value = "98"
+               max = "100"></progress>
+    
+    <p>
+      ....any day now Cyndaquil...
+    </p>
+      </p>
+        
+      <ul>
+      <li><a data-role = "button" href = "#page2" data-transition = "flip">Meet Zero</a></li>
+      <li><a data-role = "button" href = "#page3" data-transition = "flip">Anime</a></li>
+      <li><a data-role = "button" href = "#page4" data-transition = "flip">Dance</a></li>
+    </div>
+
+    <div id="foot" data-role="footer" data-position="fixed">
+        
+        Michael Chung ? 2013
+        
+    </div>
+  </div>
+
+
+  <div id = "page2" data-role = "page" data-theme = "b">
+    <div id="head" data-role = "header">
+      <h1>Meet Zero</h1>
+    </div>
+    
+    <div id="content" data-role = "content">
+      <center><p>
+        <object width="1000" height="730">
+        <param name="movie" value="Zero.swf">
+        <embed src="Zero.swf" width="510" height="370">
+        </embed>
+        </object>
+      </p></center>
+    </div>
+    
+    <div data-role = "content">
+      <div data-role = "collapsible-set"
+           data-theme = "c" data-content-theme = "b">
+        <div data-role = "collapsible">
+          <h2>Sprite Comment</h2>
+          <p>
+            Alright. Let's be real here. It took me forever to get this flash sprite into HTML5. I spent the whole day researching on how to put this 2 second
+            flash on the web browser. Very time consuming I must say. This flash project is actually my first flash project I have created. It's pretty simple I must say.
+            Also, everything is just bad. It's not centered and there's black spacing. Pretty bad, but it's an experience :).
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <ul>
+      <li><a data-role = "button" href = "#page1" data-transition = "flip">Main</a></li>
+      <li><a data-role = "button" href = "#page3" data-transition = "flip">Anime</a></li>
+      <li><a data-role = "button" href = "#page4" data-transition = "flip">Dance</a></li>
+
+    </div>
+    
+    <div id="foot" data-role="footer" data-position="fixed">
+        Michael Chung ? 2013
+    </div>
+    
+    
+     <div id = "page3" data-role = "page" data-theme = "b">
+    <div id="head" data-role = "header">
+      <h1>Naruto</h1>
+    </div>
+    
+    <div id="content" data-role = "content">
+  
+         <center><p>
+        <object width="500" height="350">
+        <param name="movie" value="Naruto.swf">
+        <embed src="Naruto.swf" width="1000" height="1000">
+        </embed>
+        </object>
+      </p></center>
+    </div>
+         
+         
+    <div data-role = "content">
+        <div data-role = "collapsible-set"
+           data-theme = "c" data-content-theme = "b">
+        <div data-role = "collapsible">
+          <h2>Paragraph</h2>
+          <p>
+            As you can see, I'm a anime fan. I probably enjoy the "Naruto" Series the most. Everything on the show I can relate in reality. I might be a geek
+            at this, but hey, it's an awesome show. By the way, I also created these sprites using Adobe Flash. Fun stuff!!
+          </p>
+        </div>
+        </div>
+    </div>
+    
+      <ul>
+      <li><a data-role = "button" href = "#page1" data-transition = "flip">Main</a></li>
+      <li><a data-role = "button" href = "#page2" data-transition = "flip">Meet Zero</a></li>
+      <li><a data-role = "button" href = "#page4" data-transition = "flip">Dance</a></li>
+      
+    </div>
+    
+    <div id="foot" data-role="footer" data-position="fixed">
+        Michael Chung ? 2013
+    </div>
+    </div>
+    
+    
+  <div id = "page4" data-role = "page" data-theme = "b">
+    <div id="head" data-role = "header">
+      <h1>Dance</h1>
+    </div>
+    
+    <div id="content" data-role = "content">
+     <center><p>
+        <img id = "dance" src = "Dance.jpg"
+             alt= "My dancing hobby!" >
+        </p></center>
+   
+    <div data-role = "content">
+      <div data-role = "collapsible-set"
+           data-theme = "c" data-content-theme = "b">
+        <div data-role = "collapsible">
+          <h2>Comment 1</h2>
+          <p>
+            Dancing has always been a stress reliever. I enjoy it. Something I will never give up on.
+            It's something I do passionately and something that won't be going away for a long time. 
+          </p>
+        </div>
+        <div data-role = "collapsible">
+          <h2>Comment 2</h2>
+          <p>
+            I have only been dancing for 8 years plus. Come and join the dancing life >:D
+          </p>
+        </div>
+      </div>
+    </div>
+      
+      <div>
+      <ul>
+      <li><a data-role = "button" href = "#page1" data-transition = "flip">Main</a></li>
+      <li><a data-role = "button" href = "#page2" data-transition = "flip">Meet Zero</a></li>
+      <li><a data-role = "button" href = "#page3" data-transition = "flip">Anime</a></li>
+      </div>
+      
+    </div>
+
+    <div id="foot" data-role="footer" data-position="fixed">
+        Michael Chung ? 2013
+    </div>
+  </div>  
+    
+    
+</body>
+</html>
